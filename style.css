@@ -1,0 +1,69 @@
+/* Style for the Slick carousel container */
+.pokemon-carta{
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  display:flex;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;}
+ 
+
+/* Style for each Pokémon card within the carousel */
+.pokemon-card {
+  display: flex;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+/* Style for Pokémon images within each card */
+.pokemon-img {
+  display: flex;
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Style for Pokémon names within each card */
+.pokemon-name {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.slick-initialized.slick-slider {
+  position: relative;
+  left: 1.5rem;
+  width:100%;
+  right: 1.5rem;
+  margin: 10px;
+}
+.slick-prev.slick-arrow {
+  position: fixed;
+  top: 19rem;
+  pointer-events: all;
+  cursor: pointer;
+}
+.pokemon-carousel-container{
+  display: flex;
+}
+.slick-slide img {
+  display: flex;
+}
+.slick-initialized .slick-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.title{
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  color:#826b6b 
+}
